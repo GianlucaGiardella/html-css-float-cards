@@ -5,16 +5,57 @@
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
-.container{
+.container {
     max-width: 1000px;
     margin: 2rem auto;
 }
 
-h1{
+.top_container {
+    margin-bottom: 2rem;
+}
+
+h1 {
     color: deeppink;
     margin-bottom: 2.5rem;
+}
+
+.bottom_container {
+    text-align: left;
+    color: white;
+}
+
+.card {
+    float: left;
+    background-color: black;
+    margin: 1rem;
+    width: calc(1000px / 3 - 2rem);
+}
+
+.card img {
+    width: 90px;
+    float: left;
+}
+
+.info {
+    height: auto;
+    float: left;
+    padding: calc((90px - 2.5rem) / 4);
+}
+
+.info h3 {
+    font-size: 1rem;
+}
+
+.info p {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.info a {
+    text-decoration: none;
+    color: deepskyblue;
 }
