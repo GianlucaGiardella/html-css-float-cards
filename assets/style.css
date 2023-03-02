@@ -33,6 +33,7 @@ h1 {
     background-color: black;
     margin: 1rem;
     width: calc(1000px / 3 - 2rem);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .card img {
